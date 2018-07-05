@@ -1,0 +1,97 @@
+Reading training examples...
+attributesAvailable [0, 1, 2, 3, 4]
+curAttributeSet: [0.0, 1.0]
+return entropy value is 0.9886994082884974
+For attribute C   0.0-> 0.9886994082884974 bestImportanceValue is 1.7976931348623157E308
+return entropy value is 0.9772170014624825
+For attribute C   1.0-> 0.9772170014624825 bestImportanceValue is 0.9886994082884974
+curAttributeSet: [0.0, 1.0]
+return entropy value is 0.9886994082884974
+For attribute D   0.0-> 0.9886994082884974 bestImportanceValue is 0.9772170014624825
+return entropy value is 0.9772170014624825
+For attribute D   1.0-> 0.9772170014624825 bestImportanceValue is 0.9772170014624825
+curAttributeSet: [0.0, 1.0]
+return entropy value is 0.9886994082884974
+For attribute E   0.0-> 0.9886994082884974 bestImportanceValue is 0.9772170014624825
+return entropy value is 0.9772170014624825
+For attribute E   1.0-> 0.9772170014624825 bestImportanceValue is 0.9772170014624825
+curAttributeSet: [0.0, 1.0]
+return entropy value is 0.9886994082884974
+For attribute F   0.0-> 0.9886994082884974 bestImportanceValue is 0.9772170014624825
+return entropy value is 0.8828560636920488
+For attribute F   1.0-> 0.8828560636920488 bestImportanceValue is 0.9772170014624825
+Going to select nobranch
+attributesAvailable [0, 1, 2, 3, 4]
+curAttributeSet: [0.0, 1.0]
+return entropy value is 0.9544340029249649
+For attribute C   0.0-> 0.9544340029249649 bestImportanceValue is 1.7976931348623157E308
+return entropy value is 0.9056390622295665
+For attribute C   1.0-> 0.9056390622295665 bestImportanceValue is 0.9544340029249649
+curAttributeSet: [0.0, 1.0]
+return entropy value is 0.9544340029249649
+For attribute D   0.0-> 0.9544340029249649 bestImportanceValue is 0.9056390622295665
+return entropy value is 0.9056390622295665
+For attribute D   1.0-> 0.9056390622295665 bestImportanceValue is 0.9056390622295665
+curAttributeSet: [0.0, 1.0]
+return entropy value is 0.9544340029249649
+For attribute E   0.0-> 0.9544340029249649 bestImportanceValue is 0.9056390622295665
+return entropy value is 0.9056390622295665
+For attribute E   1.0-> 0.9056390622295665 bestImportanceValue is 0.9056390622295665
+curAttributeSet: [1.0]
+return entropy value is 0.9544340029249649
+For attribute F   1.0-> 0.9544340029249649 bestImportanceValue is 0.9056390622295665
+Going to select nobranch
+attributesAvailable [0, 1, 2, 3, 4]
+curAttributeSet: [1.0]
+return entropy value is 1.0
+For attribute C   1.0-> 1.0 bestImportanceValue is 1.7976931348623157E308
+curAttributeSet: [0.0, 1.0]
+return entropy value is 1.0
+For attribute D   0.0-> 1.0 bestImportanceValue is 1.0
+return entropy value is 1.0
+For attribute D   1.0-> 1.0 bestImportanceValue is 1.0
+curAttributeSet: [0.0, 1.0]
+return entropy value is 1.0
+For attribute E   0.0-> 1.0 bestImportanceValue is 1.0
+return entropy value is 0.0
+For attribute E   1.0-> 0.0 bestImportanceValue is 1.0
+curAttributeSet: [1.0]
+return entropy value is 1.0
+For attribute F   1.0-> 1.0 bestImportanceValue is 0.0
+Going to select nobranch
+Going to select yesbranch
+Going to select yesbranch
+attributesAvailable [0, 2, 4]
+curAttributeSet: [0.0, 1.0]
+return entropy value is 0.8112781244591328
+For attribute D   0.0-> 0.8112781244591328 bestImportanceValue is 1.7976931348623157E308
+return entropy value is 0.5
+For attribute D   1.0-> 0.5 bestImportanceValue is 0.8112781244591328
+curAttributeSet: [1.0]
+return entropy value is 0.8112781244591328
+For attribute F   1.0-> 0.8112781244591328 bestImportanceValue is 0.5
+Going to select nobranch
+Going to select yesbranch
+attributesAvailable [0, 4]
+curAttributeSet: [1.0]
+Going to select yesbranch
+if F < 1.0
+    YES
+else
+    if C < 1.0
+        if D < 1.0
+            YES
+        else
+            NO
+    else
+        if E < 1.0
+            NO
+        else
+            YES
+
+Training data results: 
+Reading test examples...
+Precision: 0.7500
+Recall: 1.0000
+Accuracy: 0.8125
+
